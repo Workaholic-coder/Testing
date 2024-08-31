@@ -10,7 +10,7 @@ except:
 
 list = list()
 for words in file_1:
-    list,append(words)
+    list.append(words)
 
 #importing random a word form the selected file
 import random
