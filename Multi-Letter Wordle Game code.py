@@ -15,3 +15,5 @@ for words in file_1:
 #importing random a word form the selected file
 import random
 random_word = random.choice(list)
+
+list_2 = list((random_word, random_word.upper(), random_word[0].upper() + random_word[1:], random_word.lower()))
