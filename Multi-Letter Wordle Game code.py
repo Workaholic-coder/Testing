@@ -7,3 +7,11 @@ try:
     file_1 = file_2.split()
 except:
     print('Didn\'t work')
+
+list = list()
+for words in file_1:
+    list,append(words)
+
+#importing random a word form the selected file
+import random
+random_word = random.choice(list)
